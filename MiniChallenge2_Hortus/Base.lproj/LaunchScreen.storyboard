@@ -17,21 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3" colorLabel="IBBuiltInLabel-Purple">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDC-dY-UvT">
-                                <rect key="frame" x="98" y="118" width="218" height="20.5"/>
-                                <color key="backgroundColor" red="0.73228937387466431" green="0.60935395956039429" blue="0.41330903768539429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.47884476184844971" green="0.53667140007019043" blue="0.39817589521408081" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LDC-dY-UvT" secondAttribute="trailing" constant="98" id="AB4-Dj-nKV"/>
-                            <constraint firstItem="LDC-dY-UvT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="pSS-4L-6ev"/>
-                            <constraint firstItem="LDC-dY-UvT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="y8P-AQ-W6e"/>
-                        </constraints>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
