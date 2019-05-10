@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5251362284C9A00026B207 /* Jardim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5251352284C9A00026B207 /* Jardim.swift */; };
+		4F5251382284CA290026B207 /* Planta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5251372284CA290026B207 /* Planta.swift */; };
+		4F52513A2284CE280026B207 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5251392284CE280026B207 /* Log.swift */; };
 		CB0E0E6F2284BB1900AC6566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0E0E6E2284BB1900AC6566 /* AppDelegate.swift */; };
 		CB0E0E712284BB1900AC6566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0E0E702284BB1900AC6566 /* ViewController.swift */; };
 		CB0E0E742284BB1900AC6566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0E0E722284BB1900AC6566 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F5251352284C9A00026B207 /* Jardim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jardim.swift; sourceTree = "<group>"; };
+		4F5251372284CA290026B207 /* Planta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planta.swift; sourceTree = "<group>"; };
+		4F5251392284CE280026B207 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		CB0E0E6B2284BB1900AC6566 /* MiniChallenge2_Hortus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge2_Hortus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0E0E6E2284BB1900AC6566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB0E0E702284BB1900AC6566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F5251342284C90E0026B207 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F5251352284C9A00026B207 /* Jardim.swift */,
+				4F5251372284CA290026B207 /* Planta.swift */,
+				4F5251392284CE280026B207 /* Log.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		CB0E0E622284BB1800AC6566 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +72,7 @@
 		CB0E0E6D2284BB1900AC6566 /* MiniChallenge2_Hortus */ = {
 			isa = PBXGroup;
 			children = (
+				4F5251342284C90E0026B207 /* Classes */,
 				CB0E0E6E2284BB1900AC6566 /* AppDelegate.swift */,
 				CB0E0E702284BB1900AC6566 /* ViewController.swift */,
 				CB0E0E722284BB1900AC6566 /* Main.storyboard */,
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5251382284CA290026B207 /* Planta.swift in Sources */,
 				CB0E0E772284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld in Sources */,
+				4F52513A2284CE280026B207 /* Log.swift in Sources */,
 				CB0E0E712284BB1900AC6566 /* ViewController.swift in Sources */,
+				4F5251362284C9A00026B207 /* Jardim.swift in Sources */,
 				CB0E0E6F2284BB1900AC6566 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
