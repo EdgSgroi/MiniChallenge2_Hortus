@@ -18,19 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDC-dY-UvT">
-                                <rect key="frame" x="98" y="118" width="218" height="20.5"/>
-                                <color key="backgroundColor" red="0.73228937387466431" green="0.60935395956039429" blue="0.41330903768539429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 8" translatesAutoresizingMaskIntoConstraints="NO" id="fpz-v9-o7z">
+                                <rect key="frame" x="87" y="389" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="e6J-oS-lVY"/>
+                                    <constraint firstAttribute="height" constant="128" id="kX4-Hh-BXR"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.47884476184844971" green="0.53667140007019043" blue="0.39817589521408081" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99903208017349243" green="0.9548383355140686" blue="0.81174308061599731" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LDC-dY-UvT" secondAttribute="trailing" constant="98" id="AB4-Dj-nKV"/>
-                            <constraint firstItem="LDC-dY-UvT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="pSS-4L-6ev"/>
-                            <constraint firstItem="LDC-dY-UvT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="y8P-AQ-W6e"/>
+                            <constraint firstItem="fpz-v9-o7z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="345" id="Gbv-S2-zJ1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fpz-v9-o7z" secondAttribute="bottom" constant="345" id="Wup-D5-o5i"/>
+                            <constraint firstItem="fpz-v9-o7z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="fw7-cX-fXM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fpz-v9-o7z" secondAttribute="trailing" constant="87" id="p0r-lt-ger"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -40,4 +41,7 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Group 8" width="88" height="67"/>
+    </resources>
 </document>
