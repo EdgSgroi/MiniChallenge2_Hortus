@@ -16,6 +16,7 @@
 		CB0E0E772284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB0E0E752284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld */; };
 		CB0E0E792284BB1A00AC6566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0E0E782284BB1A00AC6566 /* Assets.xcassets */; };
 		CB0E0E7C2284BB1A00AC6566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0E0E7A2284BB1A00AC6566 /* LaunchScreen.storyboard */; };
+		CBD812DB228A1A0E00AD8B7B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD812DA228A1A0E00AD8B7B /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CB0E0E782284BB1A00AC6566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB0E0E7B2284BB1A00AC6566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB0E0E7D2284BB1A00AC6566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD812DA228A1A0E00AD8B7B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 				4F5251352284C9A00026B207 /* Jardim.swift */,
 				4F5251372284CA290026B207 /* Planta.swift */,
 				4F5251392284CE280026B207 /* Log.swift */,
+				CBD812DA228A1A0E00AD8B7B /* CollectionViewCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				4F5251382284CA290026B207 /* Planta.swift in Sources */,
 				CB0E0E772284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld in Sources */,
 				4F52513A2284CE280026B207 /* Log.swift in Sources */,
+				CBD812DB228A1A0E00AD8B7B /* CollectionViewCell.swift in Sources */,
 				CB0E0E712284BB1900AC6566 /* ViewController.swift in Sources */,
 				4F5251362284C9A00026B207 /* Jardim.swift in Sources */,
 				CB0E0E6F2284BB1900AC6566 /* AppDelegate.swift in Sources */,
