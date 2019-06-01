@@ -7,29 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F5251362284C9A00026B207 /* Jardim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5251352284C9A00026B207 /* Jardim.swift */; };
-		4F5251382284CA290026B207 /* Planta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5251372284CA290026B207 /* Planta.swift */; };
-		4F52513A2284CE280026B207 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5251392284CE280026B207 /* Log.swift */; };
+		4F388152228E438400C70C07 /* Plant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F38814E228E438400C70C07 /* Plant+CoreDataClass.swift */; };
+		4F388153228E438400C70C07 /* Plant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F38814F228E438400C70C07 /* Plant+CoreDataProperties.swift */; };
+		4F388154228E438400C70C07 /* Log+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F388150228E438400C70C07 /* Log+CoreDataClass.swift */; };
+		4F388155228E438400C70C07 /* Log+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F388151228E438400C70C07 /* Log+CoreDataProperties.swift */; };
+		4FA265AC228B8CFF002D233D /* CreatePlantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA265AB228B8CFF002D233D /* CreatePlantVC.swift */; };
+		4FA265AF228C6B13002D233D /* GardenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA265AD228C6B13002D233D /* GardenVC.swift */; };
+		4FA265B0228C6B13002D233D /* PlantCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA265AE228C6B13002D233D /* PlantCardCell.swift */; };
+		4FA265B2228C6B2C002D233D /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA265B1228C6B2C002D233D /* CircularProgressBar.swift */; };
+		4FC6A28F229710A10056CD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6A28E229710A10056CD30 /* Assets.xcassets */; };
+		4FC6A294229888920056CD30 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6A293229888920056CD30 /* CardView.swift */; };
+		4FC6A29822988D5D0056CD30 /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6A29722988D5D0056CD30 /* RoundedImageView.swift */; };
 		CB0E0E6F2284BB1900AC6566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0E0E6E2284BB1900AC6566 /* AppDelegate.swift */; };
-		CB0E0E712284BB1900AC6566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0E0E702284BB1900AC6566 /* ViewController.swift */; };
 		CB0E0E742284BB1900AC6566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0E0E722284BB1900AC6566 /* Main.storyboard */; };
 		CB0E0E772284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB0E0E752284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld */; };
-		CB0E0E792284BB1A00AC6566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0E0E782284BB1A00AC6566 /* Assets.xcassets */; };
 		CB0E0E7C2284BB1A00AC6566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0E0E7A2284BB1A00AC6566 /* LaunchScreen.storyboard */; };
+		CBC1879F228B44E400D01A7E /* Celula.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC1879E228B44E400D01A7E /* Celula.swift */; };
+		CBC187A3228B510000D01A7E /* TelaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC187A2228B510000D01A7E /* TelaTableViewController.swift */; };
+		CBC187A5228B55A100D01A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC187A4228B55A100D01A7E /* ViewController.swift */; };
+		CBC187A7228B5B6600D01A7E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC187A6228B5B6600D01A7E /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F5251352284C9A00026B207 /* Jardim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jardim.swift; sourceTree = "<group>"; };
-		4F5251372284CA290026B207 /* Planta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planta.swift; sourceTree = "<group>"; };
-		4F5251392284CE280026B207 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		4F38814E228E438400C70C07 /* Plant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4F38814F228E438400C70C07 /* Plant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4F388150228E438400C70C07 /* Log+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4F388151228E438400C70C07 /* Log+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4FA265AB228B8CFF002D233D /* CreatePlantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlantVC.swift; sourceTree = "<group>"; };
+		4FA265AD228C6B13002D233D /* GardenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenVC.swift; sourceTree = "<group>"; };
+		4FA265AE228C6B13002D233D /* PlantCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantCardCell.swift; sourceTree = "<group>"; };
+		4FA265B1228C6B2C002D233D /* CircularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		4FC6A28E229710A10056CD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC6A293229888920056CD30 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = ../CardView.swift; sourceTree = "<group>"; };
+		4FC6A29722988D5D0056CD30 /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 		CB0E0E6B2284BB1900AC6566 /* MiniChallenge2_Hortus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge2_Hortus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0E0E6E2284BB1900AC6566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB0E0E702284BB1900AC6566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB0E0E732284BB1900AC6566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB0E0E762284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniChallenge2_Hortus.xcdatamodel; sourceTree = "<group>"; };
-		CB0E0E782284BB1A00AC6566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB0E0E7B2284BB1A00AC6566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB0E0E7D2284BB1A00AC6566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC1879E228B44E400D01A7E /* Celula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celula.swift; sourceTree = "<group>"; };
+		CBC187A2228B510000D01A7E /* TelaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaTableViewController.swift; sourceTree = "<group>"; };
+		CBC187A4228B55A100D01A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBC187A6228B5B6600D01A7E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,11 +66,40 @@
 		4F5251342284C90E0026B207 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4F5251352284C9A00026B207 /* Jardim.swift */,
-				4F5251372284CA290026B207 /* Planta.swift */,
-				4F5251392284CE280026B207 /* Log.swift */,
+				4FC6A293229888920056CD30 /* CardView.swift */,
+				CBC1879E228B44E400D01A7E /* Celula.swift */,
+				4FC6A29722988D5D0056CD30 /* RoundedImageView.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F8320BF22989548003B0865 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4FA265A3228B6138002D233D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F38814E228E438400C70C07 /* Plant+CoreDataClass.swift */,
+				4F38814F228E438400C70C07 /* Plant+CoreDataProperties.swift */,
+				4F388150228E438400C70C07 /* Log+CoreDataClass.swift */,
+				4F388151228E438400C70C07 /* Log+CoreDataProperties.swift */,
+				4FA265B1228C6B2C002D233D /* CircularProgressBar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FA265A6228B616B002D233D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FA265AD228C6B13002D233D /* GardenVC.swift */,
+				4FA265AE228C6B13002D233D /* PlantCardCell.swift */,
+				4FA265AB228B8CFF002D233D /* CreatePlantVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		CB0E0E622284BB1800AC6566 = {
@@ -72,14 +121,19 @@
 		CB0E0E6D2284BB1900AC6566 /* MiniChallenge2_Hortus */ = {
 			isa = PBXGroup;
 			children = (
+				4F8320BF22989548003B0865 /* view */,
+				4FA265A6228B616B002D233D /* ViewControllers */,
+				4FA265A3228B6138002D233D /* Models */,
 				4F5251342284C90E0026B207 /* Classes */,
 				CB0E0E6E2284BB1900AC6566 /* AppDelegate.swift */,
-				CB0E0E702284BB1900AC6566 /* ViewController.swift */,
 				CB0E0E722284BB1900AC6566 /* Main.storyboard */,
-				CB0E0E782284BB1A00AC6566 /* Assets.xcassets */,
+				4FC6A28E229710A10056CD30 /* Assets.xcassets */,
+				CBC187A2228B510000D01A7E /* TelaTableViewController.swift */,
+				CBC187A4228B55A100D01A7E /* ViewController.swift */,
 				CB0E0E7A2284BB1A00AC6566 /* LaunchScreen.storyboard */,
 				CB0E0E7D2284BB1A00AC6566 /* Info.plist */,
 				CB0E0E752284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld */,
+				CBC187A6228B5B6600D01A7E /* CollectionViewController.swift */,
 			);
 			path = MiniChallenge2_Hortus;
 			sourceTree = "<group>";
@@ -143,7 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB0E0E7C2284BB1A00AC6566 /* LaunchScreen.storyboard in Resources */,
-				CB0E0E792284BB1A00AC6566 /* Assets.xcassets in Resources */,
+				4FC6A28F229710A10056CD30 /* Assets.xcassets in Resources */,
 				CB0E0E742284BB1900AC6566 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,11 +209,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5251382284CA290026B207 /* Planta.swift in Sources */,
+				4FC6A29822988D5D0056CD30 /* RoundedImageView.swift in Sources */,
+				CBC187A7228B5B6600D01A7E /* CollectionViewController.swift in Sources */,
+				4FA265AF228C6B13002D233D /* GardenVC.swift in Sources */,
+				CBC187A3228B510000D01A7E /* TelaTableViewController.swift in Sources */,
+				4F388153228E438400C70C07 /* Plant+CoreDataProperties.swift in Sources */,
+				4FC6A294229888920056CD30 /* CardView.swift in Sources */,
 				CB0E0E772284BB1900AC6566 /* MiniChallenge2_Hortus.xcdatamodeld in Sources */,
-				4F52513A2284CE280026B207 /* Log.swift in Sources */,
-				CB0E0E712284BB1900AC6566 /* ViewController.swift in Sources */,
-				4F5251362284C9A00026B207 /* Jardim.swift in Sources */,
+				CBC1879F228B44E400D01A7E /* Celula.swift in Sources */,
+				4FA265B0228C6B13002D233D /* PlantCardCell.swift in Sources */,
+				4F388154228E438400C70C07 /* Log+CoreDataClass.swift in Sources */,
+				4F388152228E438400C70C07 /* Plant+CoreDataClass.swift in Sources */,
+				4FA265AC228B8CFF002D233D /* CreatePlantVC.swift in Sources */,
+				CBC187A5228B55A100D01A7E /* ViewController.swift in Sources */,
+				4FA265B2228C6B2C002D233D /* CircularProgressBar.swift in Sources */,
+				4F388155228E438400C70C07 /* Log+CoreDataProperties.swift in Sources */,
 				CB0E0E6F2284BB1900AC6566 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JG72P729;
 				INFOPLIST_FILE = MiniChallenge2_Hortus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -324,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JG72P729;
 				INFOPLIST_FILE = MiniChallenge2_Hortus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
